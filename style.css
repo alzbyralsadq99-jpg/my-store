@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="style.css">/* ===== تصميم الصفحة العامة ===== */
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== تصميم الرأس ===== */
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ===== تصميم المنتجات ===== */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* ===== تصميم صور المنتجات ===== */
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* ===== تصميم الأزرار ===== */
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* ===== تصميم العناوين ===== */
+h1, h2 {
+  margin: 10px 0;
+}
